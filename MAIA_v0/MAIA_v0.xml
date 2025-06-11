@@ -94,7 +94,7 @@
 		<constant name="InnerTracker_half_length"   value="2306*mm"/>
 
 		<constant name="OuterTracker_inner_radius"  value="580*mm"/>
-		<constant name="OuterTracker_outer_radius"  value="1500*mm - env_safety"/>  <!-- to avoid overlap with Solenoid-->
+		<constant name="OuterTracker_outer_radius"  value="1500*mm"/> 
 		<constant name="OuterTracker_half_length"   value="2306*mm"/>
 
 		<constant name="Solenoid_inner_radius"      value="1500*mm"/>
@@ -177,14 +177,14 @@
     </regions>
 
 	<display>
-		<vis name="VXDVis"     alpha="1.0" r="0.5"   g="0.48"    b="0.51"  showDaughters="false"  visible="false"/>
-		<vis name="ITVis"      alpha="1.0" r="0.5"   g="0.48"    b="0.51"  showDaughters="false"  visible="false"/>
-		<vis name="OTVis"      alpha="1.0" r="0.5"   g="0.48"    b="0.51"  showDaughters="false"  visible="false"/>
-		<vis name="ECALVis"    alpha="1.0" r="0.04"  g="0.21"    b="0.62"  showDaughters="false"  visible="false"/>
-		<vis name="HCALVis"    alpha="1.0" r="0.93"  g="0.62"    b="0.02"  showDaughters="false"  visible="false"/>
-		<vis name="SOLVis"     alpha="1.0" r="0.36"  g="0.78"    b="0.69"  showDaughters="false"  visible="false"/>
-		<vis name="YOKEVis"    alpha="1.0" r="0.88"  g="0.21"    b="0.09"  showDaughters="false"  visible="false"/>
-		<vis name="SupportVis" alpha="1.0" r="0.2"   g="0.2"     b="0.2"   showDaughters="false" visible="false"/>
+		<vis name="VXDVis"     alpha="1.0" r="0.5"   g="0.48"    b="0.51"  showDaughters="true"  visible="true"/>
+		<vis name="ITVis"      alpha="1.0" r="0.5"   g="0.48"    b="0.51"  showDaughters="true"  visible="true"/>
+		<vis name="OTVis"      alpha="1.0" r="0.5"   g="0.48"    b="0.51"  showDaughters="true"  visible="true"/>
+		<vis name="ECALVis"    alpha="1.0" r="0.04"  g="0.21"    b="0.62"  showDaughters="true"  visible="true"/>
+		<vis name="HCALVis"    alpha="1.0" r="0.93"  g="0.62"    b="0.02"  showDaughters="true"  visible="true"/>
+		<vis name="SOLVis"     alpha="1.0" r="0.36"  g="0.78"    b="0.69"  showDaughters="true"  visible="true"/>
+		<vis name="YOKEVis"    alpha="1.0" r="0.88"  g="0.21"    b="0.09"  showDaughters="true"  visible="true"/>
+		<vis name="SupportVis" alpha="1.0" r="0.2"   g="0.2"     b="0.2"   showDaughters="true" visible="true"/>
 	</display>
 
     <include ref="${DD4hepINSTALL}/DDDetectors/compact/detector_types.xml"/>
